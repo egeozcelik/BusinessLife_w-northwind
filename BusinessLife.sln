@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLife.DAL", "BusinessLife.DAL\BusinessLife.DAL.csproj", "{8DEEC99D-AB65-4EE2-B91F-6F9B6DD9C69B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLife.BLL", "BusinessLife.BLL\BusinessLife.BLL.csproj", "{7FE3F6C2-7BFE-45FD-90C0-68B14DBF1EE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLife.UI", "BusinessLife.UI\BusinessLife.UI.csproj", "{18B9EF32-A7B6-4852-B47E-8EFD848FE01C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DEEC99D-AB65-4EE2-B91F-6F9B6DD9C69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DEEC99D-AB65-4EE2-B91F-6F9B6DD9C69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DEEC99D-AB65-4EE2-B91F-6F9B6DD9C69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DEEC99D-AB65-4EE2-B91F-6F9B6DD9C69B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE3F6C2-7BFE-45FD-90C0-68B14DBF1EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE3F6C2-7BFE-45FD-90C0-68B14DBF1EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE3F6C2-7BFE-45FD-90C0-68B14DBF1EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE3F6C2-7BFE-45FD-90C0-68B14DBF1EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B9EF32-A7B6-4852-B47E-8EFD848FE01C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B9EF32-A7B6-4852-B47E-8EFD848FE01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B9EF32-A7B6-4852-B47E-8EFD848FE01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B9EF32-A7B6-4852-B47E-8EFD848FE01C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
