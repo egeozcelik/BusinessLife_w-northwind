@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessLife.BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace BusinessLife.UI
         public Form1()
         {
             InitializeComponent();
+        }
+
+        CategoryRepository catRep = new CategoryRepository();
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = catRep.GetCategoryList();
         }
     }
 }
