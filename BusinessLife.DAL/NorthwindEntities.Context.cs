@@ -13,10 +13,10 @@ namespace BusinessLife.DAL
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class NorthwindEntities : DbContext
+    public partial class NorthwindEntities1 : DbContext
     {
-        public NorthwindEntities()
-            : base("name=NorthwindEntities")
+        public NorthwindEntities1()
+            : base("name=NorthwindEntities1")
         {
         }
     
@@ -25,8 +25,8 @@ namespace BusinessLife.DAL
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<Employee> Employees { get; set; }
         public virtual DbSet<Product> Products { get; set; }
-        public virtual DbSet<Category> Categories { get; set; }
     }
 }

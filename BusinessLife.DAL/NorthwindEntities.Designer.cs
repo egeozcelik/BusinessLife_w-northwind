@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\koray.ozdemir\source\repos\BusinessLife\BusinessLife.DAL\NorthwindEntities.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Ege\Desktop\BusinessLife\BusinessLife\BusinessLife.DAL\NorthwindEntities.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
